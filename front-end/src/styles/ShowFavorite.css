@@ -1,0 +1,21 @@
+.favorite-button {
+    background-color: #f9d6e0;
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.favorite-button:hover {
+    background-color: #8a9a5b;
+}
+      
+.showbox {
+    background-color: #8a9a5b;
+    width: 200px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
