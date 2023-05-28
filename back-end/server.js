@@ -3,7 +3,7 @@ const app = express(); // create express app
 const PORT = 8001;
 const cors = require("cors");
 const bcrypt = require("bcrypt");
-const allowedOrigins = ["http://localhost:3000", " "];
+const allowedOrigins = ["http://localhost:3000", "https://recipebook-36xr.onrender.com"];
 
 require('dotenv').config();
 const Knex = require("knex");
